@@ -1,4 +1,5 @@
 .modal{
+    position: relative;
     width: 60rem;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 2%;
@@ -11,3 +12,55 @@
     right: 0;
     display: none;
 }
+
+.resaltar{
+    font-weight: 600;
+}
+
+.cancion{
+    transition: 0.3s;
+}
+
+.cancion:hover{
+    color: red;
+}
+
+.close{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.close:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.close-icon{
+    width:30px;
+    height: 30px;
+    padding: 0;
+    fill: aqua;
+}
+
+.open{
+    opacity: 1;
+    display: block;
+}
+
+@media screen and (max-width:480px) {
+    .modal{
+      width: 90%;
+      padding: 5%;
+      height: 60%;
+      overflow-y: scroll;
+      scroll-behavior: smooth;
+      scrollbar-color: aquamarine;
+    }
+  }

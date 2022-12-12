@@ -1,0 +1,20 @@
+.btn-1{
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+    border-radius: 2px;
+    margin-left: calc(50% - 3.5rem);
+    margin-right: calc(50% - 3.5rem);
+    background-color: aquamarine;
+    border: none;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  
+  .btn-1:hover{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    cursor: pointer;
+  }
