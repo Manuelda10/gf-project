@@ -7,14 +7,32 @@
     border-left: 170px solid #c1e1ec;
     box-shadow: 10px 10px 5px #3793b2;
   }
+
+  @media screen and (max-width:480px){
+    #card{
+      border-top: 80px solid #e8f4f8;
+      border-right: 130px solid #c1e1ec;
+      border-bottom: 80px solid #d4ebf2;
+      border-left: 130px solid #c1e1ec;
+      box-shadow: 5px 5px 5px #3793b2;
+    }
+  }
   
   .heart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 32px; 
     height: 32px; 
     background-color: #ff1414;
     transform: translate(-50%, -50%) rotate(45deg);
     animation: heartbeat 1.4s infinite; 
     cursor: pointer;
+  }
+
+  .number{
+    z-index: 2;
+    transform: translate(-40%, -10%) rotate(-50deg);
   }
   
   .heart:before {

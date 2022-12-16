@@ -2,7 +2,7 @@
   background-color: aliceblue;
   border-radius: 5px;
   width: 40rem;
-  padding: 2rem;
+  padding: 1rem;
   box-sizing: border-box;
 }
 
@@ -14,11 +14,16 @@ h1{
   text-align: center;
 }
 
+.w-100{
+  width: 100%;
+}
+
 @media screen and (max-width:480px) {
   .app{
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0;
   }
 }
 

@@ -1,16 +1,10 @@
-.modal{
-    position: relative;
+.modal-container{
     width: 60rem;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 2%;
-    box-sizing: border-box;
+    position: relative;
+    background-color: white;
+    backdrop-filter: none;
     border-radius: 5px;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    display: none;
+    padding: 2%;
 }
 
 .resaltar{
@@ -51,16 +45,18 @@
 
 .open{
     opacity: 1;
-    display: block;
+    display: flex;
 }
 
 @media screen and (max-width:480px) {
-    .modal{
-      width: 90%;
-      padding: 5%;
-      height: 70%;
-      overflow-y: scroll;
-      scroll-behavior: smooth;
-      scrollbar-color: aquamarine;
+    .modal-container{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 30rem;
+        padding: 5%;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        scrollbar-color: aquamarine;
     }
   }

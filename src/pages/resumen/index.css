@@ -1,0 +1,33 @@
+.resumen{
+    width: 68rem;
+}
+
+.cards-container{
+    display: grid;
+    grid-auto-rows: 14rem;
+    grid-auto-columns: 10rem;
+    grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+    place-items: center center;
+}
+
+@media screen and (max-width:767px){
+    .resumen{
+        width: 34rem;
+    }
+}
+
+@media screen and (max-width:480px){
+    .resumen{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .cards-container{
+        height: 25rem;
+        grid-auto-rows: 12rem;
+        grid-auto-columns: 10rem;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        scrollbar-color: aquamarine;
+    }
+}
