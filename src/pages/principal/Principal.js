@@ -11,7 +11,7 @@ const Principal = () => {
       <p>
         Te explico un poco cómo va esto, amore mio. Cada día esta página web se actualizará y te mostrará una pequeña carta para vos &#128140;. Habrá una cartita por día, empezará el domingo 11 de diciembre y terminará el viernes 16 uwu.
       </p>
-      <p>****Ya está lista tu cuarta cartita, mi amor &#10084;&#65039;.</p><br></br>
+      <p>*****Ya está lista tu quinta y penúltima cartita, amore mio &#10084;&#65039;.</p><br></br>
       <Link className='btn-1' to='/teamo'>Continuar</Link>
     </div>)
 }
