@@ -1,19 +1,11 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import { ReactComponent as CloseIcon } from '../../assets/icons/close.svg';
 import './index.css'
 
 const Modal = ({closeModal, number, destinatario, mensaje, url}) => {
-    const navigate = useNavigate()
 
     const redirectLast = () => {
-        if(number === 6){
-            closeModal()
-            navigate('/preciosa')
-        } else {
-            closeModal()
-        }
-        
+        closeModal()
     }
 
     return(

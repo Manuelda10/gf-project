@@ -13,16 +13,16 @@ function App() {
     cName = "app teamo"
   }
 
-  if(location.pathname === "/preciosa"){
+  if(location.pathname === "/"){
     cName = "app w-100"
   }
 
   return (
     <div className={cName}>
       <Routes>
-        <Route path='/' element={<Principal></Principal>}></Route>
+        <Route path='/' element={<Resumen></Resumen>}></Route>
+        <Route path='/preciosa' element={<Principal></Principal>}></Route>
         <Route path='/teamo' element= {<Precarta></Precarta>}></Route>
-        <Route path='/preciosa' element={<Resumen></Resumen>}></Route>
       </Routes>
     </div>
   );
