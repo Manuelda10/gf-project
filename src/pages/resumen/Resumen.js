@@ -41,6 +41,12 @@ const Resumen = () => {
             "message" : "Llegó el gran día, hoy cumplimos un añito, mi amor. Es un placer para mí ser tu enamoradito, haber compartido tantos momentos juntos, haber sentido tantas emociones. Sé que ambos estamos en costante crecimiento, mejorando como personas y como pareja, y aunque cometamos tantos errores yo siempre voy a estar para apoyarte cada vez que te sientas frustrada, triste, decaída o cuando sientas que ya no puedes más con esta vida tan efímera. Sé que te he fallado muchas veces, pero ninguna ha sido intencional, solo que mi cerebro taaan crack no piensa las cosas bien cuando debe hacerlo. Aún así estoy trabajando mucho en poder ser cada vez mejor y ser tu ser amado por defecto. A veces me cuesta un poco poder notar mis errores, por eso te pido que me los digas y me tengas un poquiiiiito de paciencia, un poquito más. Gracias por permitirme ser parte de tu vida. Gracias por hablarme aquella primera vez y aceptar ver Shingeki conmigo. Gracias porque aunque te pido un poco más de paciencia, tú ya me has dado mucho y no tengo derecho a exigirte más. Grcias porque durante todo este tiempo en el que te he fallado tanto, me has permitido enmendar mis errores y poder ser un mejor compañerito de vida. Gracias porque a pesar de que has estado a punto de terminarme, al final te has quedado conmigo y me has dado otra oportunidad. Gracias por mostrarme lo bonita que puede ser la vida cuando tengo a alguien que amo a mi lado. Gracias por mostrarme que a pesar de la distancia y de todos los problemas que puedo estar pasando, estás ahí para mí. Gracias por escucharme, aconsejarme y demostrarme que no quiero morir a los 30 años, sino que quiero pasar una eternidad a tu lado, y que cuando nuestros cuerpos sean energía en el universo, sean un recordatorio de 2 seres que se dieron todo y se amaron con locura. Gracias por ser y estar. Y Como te he dicho ya en repetidas ocasiones te amo tanto como la cantidad de decimales de PI y aunque el amor que sienta por ti no se puede medir, sí te lo puedo demostrar. Te amo Marianna Elvira Guzmán Sebastián. Te amo y te adoro con toda mi alma, cuerpo y mente, todo lo que tengo, aunque no sea mucho, es tuyo. Te amo, esposita mía. ¡Feliz Primer Aniversario!💖 ",
             "pie": "Esta fue la quinta cartita y mañana vamos por la sexta y última gg. Te dejo una nueva cancioncita bonita.",
             "url": "https://www.youtube.com/watch?v=1G3-lhgD658"
+        },
+        {
+            "destinatario": "Para mi esposita, cartita semanal 1 💖:",
+            "message" : "[20/02] Hola mi amor, aproveché este espacio para escribirte cartitas semanales con cosas bonitas que a veces soy tan tonto que olvido decírtelas. Espero juntar varias semanitas para luego avisarte y que puedas verlas jeje. Empiezo pidiéndote perdón por no haber podido darte florcitas en San Valentin, quizá pienses que soy poco detallista, pero tengo algunas sorpresitas para más adelante, mi amor, y estoy seguro que te van a gustar mucho muchote. Hoy me puse muy borrachito porque estaba con mi familia y mi prima comentó algo acerca de nuestra relación, pero me da un poco igual, yo te quiero mucho mucho mucho, mi amore. Estoy feliz porque pude hablar varias cositas con mi sobrino wiuu. Te extraño mucho 🥺. [23/02] Toy happy happy happy porque mañana voy a verte wiuuuu, de verdad te extraño mucho mucho mucho, mi bb :c, ojalá tuviera una maquinita para teletransportarme a tu ladito todas las noches. ",
+            "pie": "Esta fue la quinta cartita y mañana vamos por la sexta y última gg. Te dejo una nueva cancioncita bonita.",
+            "url": "https://www.youtube.com/watch?v=QaFtF7XLEBI"
         }
     ]
         
@@ -78,6 +84,11 @@ const Resumen = () => {
             destinatario={mensajes[5].destinatario} 
             mensaje={mensajes[5].message} 
             url={mensajes[5].url} 
+            ></Card>
+            <Card number={7} 
+            destinatario={mensajes[6].destinatario} 
+            mensaje={mensajes[6].message} 
+            url={mensajes[6].url} 
             ></Card>
         </div>
     </div>)
